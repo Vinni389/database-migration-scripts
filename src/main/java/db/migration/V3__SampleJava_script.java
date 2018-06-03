@@ -6,7 +6,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 /**
  * Example of a Spring Jdbc migration.
  */
-public class V1_1_37__Test_Java_Migration implements SpringJdbcMigration {
+public class V3__SampleJava_script implements SpringJdbcMigration {
 
   @Override
   public void migrate(JdbcTemplate jdbcTemplate) throws Exception {
